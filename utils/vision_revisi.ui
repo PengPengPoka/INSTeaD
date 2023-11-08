@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1206</width>
-    <height>817</height>
+    <height>829</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -29,7 +29,7 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>logo.png</normaloff>logo.png</iconset>
+    <normaloff>../logo.png</normaloff>../logo.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="button1_4">
@@ -68,7 +68,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="tab">
      <attribute name="title">
@@ -96,7 +96,7 @@
         <x>30</x>
         <y>40</y>
         <width>640</width>
-        <height>680</height>
+        <height>531</height>
        </rect>
       </property>
       <property name="frameShape">
@@ -330,6 +330,49 @@
        <number>1</number>
       </property>
      </widget>
+     <widget class="QFrame" name="frame_4">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>580</y>
+        <width>951</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <property name="lineWidth">
+       <number>1</number>
+      </property>
+      <widget class="QLabel" name="label_14">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>931</width>
+         <height>141</height>
+        </rect>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="text">
+        <string>Program ini dibuat oleh 
+Tim Penelitian Terapan Unggulan Perguruan Tinggi (PTUPT) Tahun Anggaran 2022 - 2023 
+Judul “Pengembangan Prototype Integrated Sensors for Tea Quality Detection (INSTeaD) 
+sebagai Alternatif Pengganti Uji Organoleptik yang Sederhana dan Akurat” 
+
+Ketua Prof. Dr. Ir. Adi Djoko Guritno, MSIE</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </widget>
     </widget>
     <widget class="QWidget" name="tab_2">
      <attribute name="title">
@@ -388,7 +431,7 @@
       </property>
       <property name="font">
        <font>
-        <pointsize>13</pointsize>
+        <pointsize>11</pointsize>
        </font>
       </property>
       <property name="text">
